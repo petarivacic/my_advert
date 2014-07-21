@@ -1,4 +1,5 @@
 ActiveAdmin.register Project do
+  permit_params :title, :description, :starting_date, :ending_date
 
   
   # See permitted parameters documentation:
