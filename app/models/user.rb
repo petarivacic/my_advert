@@ -36,4 +36,5 @@ class User < ActiveRecord::Base
 
 
   devise authentication_keys: [:login]
+  acts_as_votable 
 end
